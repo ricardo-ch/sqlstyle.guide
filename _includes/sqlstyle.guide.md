@@ -5,13 +5,12 @@
 This style guide serves as a best-practices overview for writing good SQL in
 the DI-Team at Ricardo.ch
 
-It has been forked from the one written by Simon Holywell
-(https://www.sqlstyle.guide/) and adjusted by the team to be used writing SQL
+It has been forked from the [one written by Simon Holywell][sqlstyleguide]
+and adjusted by the team to be used writing SQL
 statements against BigQuery.
 
 SQL style guide by [Simon Holywell][simon] is licensed under a [Creative Commons
 Attribution-ShareAlike 4.0 International License][licence].
-Based on a work at [http://www.sqlstyle.guide][sqlstyleguide].
 
 ## General
 
