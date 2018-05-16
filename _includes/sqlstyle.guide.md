@@ -17,7 +17,7 @@ Attribution-ShareAlike 4.0 International License][licence].
 ### Do
 
 * Write [StandardSQL][standard-sql] and put `#standardSQL` in the first line of each .sql file
-* Use consistent and descriptive identifiers and names.
+* Use consistent and descriptive identifiers and names in full.
 * Make judicious use of white space and indentation to make code easier to read.
 * Store [ISO-8601][iso-8601] compliant time and date information
   (`YYYY-MM-DD HH:MM:SS.SSSSS`).
@@ -45,6 +45,7 @@ UPDATE file_system
 ### Avoid
 
 * Descriptive prefixes or Hungarian notation such as `sp_` or `tbl`.
+* Abbreviations in folder or filenames, other than DIM in table names.
 * Plurals—use the more natural collective term where possible instead. For example
   `staff` instead of `employees` or `people` instead of `individuals`.
 * Quoted identifiers
