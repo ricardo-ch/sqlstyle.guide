@@ -84,7 +84,7 @@ SELECT firstName
   notation.
 * Never give a table the same name as one of its columns and vice versa.
 * Avoid, where possible, concatenating two table names together to create the name
-  of a relationship table. Rather than `carsMechanics` prefer `services`.
+  of a relationship table. Rather than `cars_mechanics` prefer `services`.
 
 ### Columns
 
