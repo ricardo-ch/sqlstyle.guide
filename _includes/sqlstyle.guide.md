@@ -56,7 +56,7 @@ UPDATE file_system
 
 ### General
 
-* Table names are written in `lower_case_and_with_underscores`
+* Table names are written in `lower_case_and_with_underscores` and their corresponding filenames are as well (`lower_case_and_with_underscores.sql`).
 * Column names are written in `camelCase`
 * Ensure the name is unique and does not exist as a
   [reserved keyword][reserved-keywords].
