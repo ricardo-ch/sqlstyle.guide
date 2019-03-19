@@ -155,8 +155,8 @@ implementation detail. Rivers are [bad in typography][rivers], but helpful here.
 
 ```sql
 (SELECT speciesName,
-        xheight    AS height,
-        xdiameter  AS diameter
+        height     AS speciesHeight,
+        diameter   AS speciesDiameter
    FROM flora
   WHERE speciesName = 'Banksia'
      OR speciesName = 'Sheoak'
@@ -166,8 +166,8 @@ implementation detail. Rivers are [bad in typography][rivers], but helpful here.
   UNION ALL
 
 (SELECT speciesName,
-        xheight    AS height,
-        xdiameter  AS diameter
+        height     AS speciesHeight,
+        diameter   AS speciesDiameter
    FROM botanic_garden_flora
   WHERE speciesName = 'Banksia'
      OR speciesName = 'Sheoak'
